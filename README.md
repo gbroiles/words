@@ -52,8 +52,8 @@ which is the same as
 
 This means that any number of words can map to a given byte in the original file. Also note that "CAT" and "cat" and "Cat" will have 3 different values. 
 
-The files holmes.txt is from the Gutenberg Project and is public domain to the best of my knowledge.
+The files `holmes.txt` is from the Gutenberg Project and is public domain to the best of my knowledge.
 
-The file american-english-small.txt is from /usr/share/dict on a Ubuntu 16.04 installation. 
+The file `american-english-small.txt` is from /usr/share/dict on a Ubuntu 16.04 installation. 
 
 
