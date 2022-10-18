@@ -24,6 +24,10 @@ will run the program sha256sum on the source file before encoding it; and
 
 feeds the output to sha256sum to verify that the file has been processed unchanged. 
 
+This can be done with a single command:
+
+`sha256sum testfile.bin && python3 words.py american-english-small.txt < testfile.bin | python3 unwords.py | sha256sum`
+
 Note that the resulting text form of the original file will be much larger than the original file, though it should compress relatively well as it's standard text. The degree of expansion will depend on the dictionary file used.
 
 Any file can be used to provide words for the conversion - for example, 
