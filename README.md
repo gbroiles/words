@@ -50,7 +50,7 @@ which is the same as
 
 .. or `56`. 
 
-This measn that any number of words can map to a given byte in the original file. Also note that "CAT" and "cat" and "Cat" will have 3 different values. 
+This means that any number of words can map to a given byte in the original file. Also note that "CAT" and "cat" and "Cat" will have 3 different values. 
 
 The files holmes.txt is from the Gutenberg Project and is public domain to the best of my knowledge.
 
